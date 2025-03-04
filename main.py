@@ -3,7 +3,7 @@ from sys import exit
 # Import sleep() from time module
 from time import sleep
 # Import clear() from replit module
-from replit import clear
+from clear import clear
 # Import all functions from howManyRounds module
 from howManyRounds import ask_for_rounds
 # Import round_of_breath from breathInAndOut module

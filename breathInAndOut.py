@@ -1,7 +1,7 @@
 # Import sleep() from time module
 from time import sleep
 # Import clear() from replit module
-from replit import clear
+from clear import clear
 
 # Delay function
 def delay():
