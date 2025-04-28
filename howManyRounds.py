@@ -1,3 +1,5 @@
+from clear import clear
+
 def process_user_input(user_input):
   """Using conditional statements, this function will generate the proper output based on the user's input"""
   # If user_input is a number, convert from string to int
@@ -5,8 +7,9 @@ def process_user_input(user_input):
   
   # Run if user inputs 0
   if desired_number_of_rounds == 0:
+    clear()
     print('Take care!')
-    exit()
+    # exit()  # Uncomment to work within Terminal
   
   # Run if user input is greater than 5
   elif desired_number_of_rounds > 5:
