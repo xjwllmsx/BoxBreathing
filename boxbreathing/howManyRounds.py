@@ -1,4 +1,5 @@
-from .clear import clear
+# Import clear() from utils
+from .utils import clear, exit_app
 
 def process_user_input(user_input):
   """Using conditional statements, this function will generate the proper output based on the user's input"""
@@ -9,7 +10,7 @@ def process_user_input(user_input):
   if desired_number_of_rounds == 0:
     clear()
     print('Take care!')
-    # exit()  # Uncomment to work within Terminal
+    exit_app()
   
   # Run if user input is greater than 5
   elif desired_number_of_rounds > 5:

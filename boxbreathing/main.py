@@ -1,9 +1,3 @@
-# Import exit() from sys module
-# from sys import exit  # Uncomment to use with the terminal
-
-# Import clear()
-from .clear import clear
-
 # Import all functions from howManyRounds module
 from .howManyRounds import ask_for_rounds
 
@@ -12,6 +6,9 @@ from .breathInAndOut import round_of_breath
 
 # Import countdown from countdown module
 from .countdown import countdown
+
+# Import is_running_in_notebook, clear, and exit_app from utils
+from .utils import clear, exit_app
 
 
 def run_box_breathing():
@@ -56,7 +53,7 @@ def run_box_breathing():
             elif continue_breathing == "no":
                 clear()
                 print("Enjoy the rest of your day. Namaste!")
-                # exit()  # Uncomment for use in terminal
+                exit_app()
             # Print if the user enters an invalid input
             else:
                 print("Invalid input.")
