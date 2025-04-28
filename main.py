@@ -1,5 +1,6 @@
 # Import exit() from sys module
 # from sys import exit  # Uncomment to use with the terminal
+
 # Import clear()
 from clear import clear
 
@@ -58,3 +59,7 @@ def box_breathing():
             # Print if the user enters an invalid input
             else:
                 print("Invalid input.")
+
+
+if __name__ == "__main__":
+    box_breathing()
