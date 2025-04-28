@@ -34,7 +34,7 @@ cd BoxBreathing
 
 2. Run the program:
 ```bash
-python main.py
+python -m boxbreathing.main
 ```
 
 3. Follow the prompts:
@@ -51,7 +51,7 @@ python main.py
 
 You can run the BoxBreathing app directly in your browser using Binder — no installation needed.
 
-<p align="center"> <a href="https://mybinder.org/v2/gh/xjwllmsx/BoxBreathing/HEAD?urlpath=%2Fdoc%2Ftree%2Fbox_breathing_demo.ipynb"> <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder"> </a> </p>
+<p align="center"> <a href="https://mybinder.org/v2/gh/xjwllmsx/BoxBreathing/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fbox_breathing_demo.ipynb"> <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder"> </a> </p>
 Click the badge above to launch the app in Binder.
 
 **How to use Binder:**
