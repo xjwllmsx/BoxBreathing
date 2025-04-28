@@ -1,7 +1,7 @@
 # Import delay function from breathInAndOut
-from breathInAndOut import delay
+from .breathInAndOut import delay
 # Import clear() from replit module
-from clear import clear
+from .clear import clear
 
 # Countdown function
 def countdown():

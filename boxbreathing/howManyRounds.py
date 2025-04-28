@@ -1,4 +1,4 @@
-from clear import clear
+from .clear import clear
 
 def process_user_input(user_input):
   """Using conditional statements, this function will generate the proper output based on the user's input"""

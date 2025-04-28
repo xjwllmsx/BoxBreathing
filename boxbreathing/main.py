@@ -2,19 +2,19 @@
 # from sys import exit  # Uncomment to use with the terminal
 
 # Import clear()
-from clear import clear
+from .clear import clear
 
 # Import all functions from howManyRounds module
-from howManyRounds import ask_for_rounds
+from .howManyRounds import ask_for_rounds
 
 # Import round_of_breath from breathInAndOut module
-from breathInAndOut import round_of_breath
+from .breathInAndOut import round_of_breath
 
 # Import countdown from countdown module
-from countdown import countdown
+from .countdown import countdown
 
 
-def box_breathing():
+def run_box_breathing():
     # Greet the user
     print("Welcome to the Box Breathing program!")
     # Ask for number of rounds
@@ -54,6 +54,7 @@ def box_breathing():
                 num_of_rounds = ask_for_rounds()
             # End the program if the user does not want to continue
             elif continue_breathing == "no":
+                clear()
                 print("Enjoy the rest of your day. Namaste!")
                 # exit()  # Uncomment for use in terminal
             # Print if the user enters an invalid input
@@ -62,4 +63,4 @@ def box_breathing():
 
 
 if __name__ == "__main__":
-    box_breathing()
+    run_box_breathing()
