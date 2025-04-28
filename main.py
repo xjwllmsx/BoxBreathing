@@ -1,7 +1,5 @@
 # Import exit() from sys module
 from sys import exit
-# Import sleep() from time module
-from time import sleep
 # Import clear()
 from clear import clear
 # Import all functions from howManyRounds module
