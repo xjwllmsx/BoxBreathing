@@ -34,7 +34,7 @@ cd BoxBreathing
 
 2. Run the program:
 ```bash
-python -m boxbreathing.main
+python boxbreathing.py 
 ```
 
 3. Follow the prompts:
