@@ -1,5 +1,5 @@
 # Import is_running_in_notebook, clear, exit_app, ask_for_rounds, round_of_breath, and countdown from utils
-from utils import clear, exit_app, ask_for_rounds, round_of_breath, countdown
+from .utils import clear, exit_app, ask_for_rounds, round_of_breath, countdown
 
 
 def run_box_breathing():
