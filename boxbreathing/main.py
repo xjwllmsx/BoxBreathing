@@ -1,14 +1,5 @@
-# Import all functions from howManyRounds module
-from .howManyRounds import ask_for_rounds
-
-# Import round_of_breath from breathInAndOut module
-from .breathInAndOut import round_of_breath
-
-# Import countdown from countdown module
-from .countdown import countdown
-
-# Import is_running_in_notebook, clear, and exit_app from utils
-from .utils import clear, exit_app
+# Import is_running_in_notebook, clear, exit_app, ask_for_rounds, round_of_breath, and countdown from utils
+from utils import clear, exit_app, ask_for_rounds, round_of_breath, countdown
 
 
 def run_box_breathing():
