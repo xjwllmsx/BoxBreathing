@@ -1,0 +1,3 @@
+from boxbreathing.run_box_breathing import run_box_breathing
+
+run_box_breathing()
