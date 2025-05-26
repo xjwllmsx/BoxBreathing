@@ -4,4 +4,7 @@ version = "1.0"
 description = "This program will provide visual cues in the CLI for the box breathing technique, and allow people to follow along with their breath to assist them in their mindful breathing practice."
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = []
+dependencies = [
+    "ipykernel>=6.29.5",
+    "ipython>=8.12.3",
+]
